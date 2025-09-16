@@ -1,5 +1,5 @@
-📞 **Call Transcript Analyzer
-**
+**📞Call Transcript Analyzer**
+
 A simple Python + Flask web application that analyzes customer call transcripts using the Groq API.
 
 It automatically:
@@ -10,7 +10,7 @@ Detects customer sentiment (Positive / Neutral / Negative)
 
 Saves results into a CSV file (call_analysis.csv)
 
-🚀** Features**
+**🚀Features**
 
 Web form to paste call transcripts
 
@@ -22,7 +22,7 @@ Stores transcript, summary, sentiment, and timestamp in a CSV file
 
 Easy to run locally with Python
 
-🛠️** Tech Stack**
+**🛠️ Tech Stack**
 
 Python 3
 
@@ -39,7 +39,7 @@ call-analyser/
 │── venv/               # Virtual environment (optional)
 │── README.md           # Project documentation
 
-⚙️ **Installation & Setup**
+**⚙️Installation & Setup**
 
 Clone the repository
 
@@ -73,7 +73,7 @@ python app.py
 Open in browser
 Go to → http://127.0.0.1:5000/
 
-🔑 **API Usage**
+**🔑 API Usage**
 Endpoint:
 POST /api/analyze
 
@@ -90,17 +90,18 @@ Example Response (JSON)
   "timestamp": "2025-09-15 22:45:27"
 }
 
-📊** Output File**
+**📊Output File**
 
 All results are saved into call_analysis.csv with 4 columns:
 
 Transcript	Summary	Sentiment	Timestamp
 Hi, I was trying to book a slot yesterday but the payment failed…	Customer faced a payment failure while booking a slot.	Negative	2025-09-15 22:45:27
-📽️ Demo Video
+
+**📽️ Demo Video**
 
 👉 https://drive.google.com/file/d/1qpSQDeW4f_fO3pwYQR0MIxrb9EBXkgfj/view?usp=sharing
 
-🙌 **Acknowledgements**
+**🙌Acknowledgements**
 
 Flask
 
