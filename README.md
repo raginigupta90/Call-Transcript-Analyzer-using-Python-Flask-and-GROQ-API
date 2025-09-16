@@ -4,35 +4,36 @@ A simple Python + Flask web application that analyzes customer call transcripts 
 
 It automatically:
 
-Summarizes the transcript in 2–3 sentences
+    Summarizes the transcript in 2–3 sentences
 
-Detects customer sentiment (Positive / Neutral / Negative)
+    Detects customer sentiment (Positive / Neutral / Negative)
 
-Saves results into a CSV file (call_analysis.csv)
+    Saves results into a CSV file (call_analysis.csv)
 
 **🚀Features**
 
-Web form to paste call transcripts
+a. Web form to paste call transcripts
 
-REST API endpoint for JSON input/output
+b. REST API endpoint for JSON input/output
 
-Uses Groq LLM for summarization & sentiment analysis
+c. Uses Groq LLM for summarization & sentiment analysis
 
-Stores transcript, summary, sentiment, and timestamp in a CSV file
+d. Stores transcript, summary, sentiment, and timestamp in a CSV file
 
-Easy to run locally with Python
+e. Easy to run locally with Python
 
 **🛠️ Tech Stack**
 
-Python 3
+a. Python 3
 
-Flask
+b. Flask
 
-Groq API
+c. Groq API
 
-CSV file storage
+d. CSV file storage
 
-📂** Project Structure**
+**📂Project Structure**
+
 call-analyser/
 │── app.py              # Main Flask application
 │── call_analysis.csv   # Output CSV (auto-created after analysis)
@@ -41,36 +42,36 @@ call-analyser/
 
 **⚙️Installation & Setup**
 
-Clone the repository
+1. Clone the repository
 
-git clone https://github.com/your-username/call-analyser.git
+git clone https://github.com/raginigupta90/call-analyser.git
 cd call-analyser
 
 
-Create virtual environment (optional but recommended)
+2. Create virtual environment (optional but recommended)
 
 python3 -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
 
-Install dependencies
+3. Install dependencies
 
 pip install flask requests
 
 
-Set your Groq API Key
+4. Set your Groq API Key
 
 export GROQ_API_KEY="your_api_key_here"   # Linux/Mac
 set GROQ_API_KEY="your_api_key_here"      # Windows (cmd)
 
 
-Run the Flask server
+5. Run the Flask server
 
 python app.py
 
 
-Open in browser
+6. Open in browser
 Go to → http://127.0.0.1:5000/
 
 **🔑 API Usage**
